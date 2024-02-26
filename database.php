@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 $servername = "mysql-25476673-amirshojay-8349.a.aivencloud.com:24759";
-$config = include('path/to/config.php');
+$config = include('config.php');
 $username = $config['db_username'];
 $password = $config['db_password'];
 $database = "defaultdb";
